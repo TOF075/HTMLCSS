@@ -1,0 +1,22 @@
+
+
+div {
+    border: 3px solid rgb(23, 32, 23);
+    padding: 45px;
+}
+
+.vert {
+    background-color: rgba(80, 156, 115, 0.836);
+}
+
+.violet {
+    background-color: rgb(86, 44, 163);
+}
+
+.orange {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+
+    background-color: rgb(180, 130, 36);
+}
