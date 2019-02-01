@@ -1,0 +1,28 @@
+
+
+div {
+    border: 2px solid rgb(23, 32, 23);
+    padding: 45px;
+}
+
+.bleu {
+    background-color: rgba(90, 151, 192, 0.836);
+}
+
+.vert {
+    position: absolute;
+    background-color: rgba(10, 173, 59, 0.836);
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.violet {
+    background-color: rgb(86, 44, 163);
+}
+
+.orange {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 80px;
+    background-color: rgb(180, 130, 36);
+}
