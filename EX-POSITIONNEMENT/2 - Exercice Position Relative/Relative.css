@@ -1,0 +1,24 @@
+
+
+div {
+    border: 3px solid rgb(23, 32, 23);
+    padding: 50px;
+    margin: 40px;
+}
+
+.vert {
+    background-color: rgb(80, 156, 99);
+}
+
+.violet {
+    position: relative;
+    top: -10px;
+    left: 120px;
+    background-color: rgb(86, 44, 163, 0.7);
+}
+
+.orange {
+    position: relative;
+    right: 400px;
+    background-color: rgb(180, 130, 36);
+}
