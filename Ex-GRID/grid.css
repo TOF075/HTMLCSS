@@ -1,0 +1,153 @@
+.item1 {
+    grid-area: blanc1;
+}
+.item2 {
+    grid-area: blanc2;
+}
+.item3 {
+    grid-area: blanc3;
+}
+
+
+.item5 {
+    grid-area: jaune1;
+}
+
+.item6 {
+    grid-area: bleu1;
+}
+
+.item7 {
+    grid-area: blanc7;
+}
+
+.item8 {
+    grid-area: blanc8;
+}
+
+.item9 {
+    grid-area: bleu1;
+}
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'blanc1 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc4 jaune1'
+    'blanc1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 blanc5 blanc5 blanc5 blanc5 bleu2 bleu2 bleu2 bleu2 bleu2 bleu2 blanc4 jaune1'
+    'blanc1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 blanc5 blanc5 blanc5 blanc5 bleu2 bleu2 bleu2 bleu2 bleu2 bleu2 blanc4 jaune1'
+    'blanc1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 blanc5 blanc5 blanc5 blanc5 bleu2 bleu2 bleu2 bleu2 bleu2 bleu2 blanc4 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
+    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1';
+    grid-gap: 10px;
+    background: black;
+    padding: 10px;
+}
+
+#blanc1
+{
+    background-color: rgb(187, 184, 184);
+    grid-area: blanc1;
+}
+
+#blanc2
+{
+    background-color: rgb(187, 184, 184);
+    grid-area: blanc2;
+}
+
+#jaune1
+{
+    background-color: rgb(213, 228, 6);
+    grid-area: jaune1;
+}
+
+#bleu1
+{
+    background-color: rgb(102, 6, 228);
+    grid-area: bleu1;
+}
+.grid-container > div {
+    background-color: rgb(187, 184, 184);
+    padding: 20px 0;
+}
