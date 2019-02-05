@@ -1,32 +1,33 @@
 .item1 {
-    grid-area: blanc1;
+    grid-area: b1;
+    background: rgb(14, 194, 194);
 }
 .item2 {
-    grid-area: blanc2;
+    grid-area: b2;
 }
 .item3 {
-    grid-area: blanc3;
+    grid-area: b3;
 }
-
-
 .item5 {
-    grid-area: jaune1;
+    grid-area: j1;
+    background: rgb(156, 175, 46);
 }
 
 .item6 {
-    grid-area: bleu1;
+    grid-area: ble1;
+    background: rgb(79, 7, 214);
 }
 
 .item7 {
-    grid-area: blanc7;
+    grid-area: b7;
 }
 
 .item8 {
-    grid-area: blanc8;
+    grid-area: b8;
 }
 
 .item9 {
-    grid-area: bleu1;
+    grid-area: ble3;
 }
 
 
@@ -36,116 +37,124 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-    'blanc1 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc4 jaune1'
-    'blanc1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 blanc5 blanc5 blanc5 blanc5 bleu2 bleu2 bleu2 bleu2 bleu2 bleu2 blanc4 jaune1'
-    'blanc1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 blanc5 blanc5 blanc5 blanc5 bleu2 bleu2 bleu2 bleu2 bleu2 bleu2 blanc4 jaune1'
-    'blanc1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 blanc5 blanc5 blanc5 blanc5 bleu2 bleu2 bleu2 bleu2 bleu2 bleu2 blanc4 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1'
-    '. blanc6 blanc6 blanc6 noir2 blanc7 blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge1 rouge2 blanc9 jaune1';
+    'b1  b2  b2  b2  b2  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  b3  b4  j1'
+    'b1  ble1  ble1  ble1  ble1  ble1  ble1  b5  b5  b5  b5  ble2  ble2  ble2 ble2 ble2 b4 j1'
+    'b1  ble1  ble1  ble1  ble1  ble1  ble1  b5  b5  b5  b5  ble2  ble2  ble2 ble2 ble2 b4 j1'
+    /*'. ble1  ble1  ble1  ble1  ble1  ble1  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  j1'
+    '.  ble1  ble1  ble1  ble1  ble1  ble1  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  j1'
+    '.  ble1  ble1  ble1  ble1  ble1  ble1  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  j1'
+    '.  ble1  ble1  ble1  ble1  ble1  ble1  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  j1'
+    '.  ble1  ble1  ble1  ble1  ble1  ble1  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  j1'
+    'b1  b2  b2  b2  b2  b2  b2  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  j1'
+    'b1  b2  b2  b2  b2  b2  b2  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  j1'
+    'b1  b2  b2  b2  b2  b2  b2  b2  b2  b2  b3  b3  b3  b3  b3  b3  b3  j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    'b1 b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'
+    '. b6 b6 b6 n2 b7 b7 b7 b7 b8 j2 j2 j2 j2 r1 r1 r1 r1 r1 r2 b9 j1'*/;
     grid-gap: 10px;
     background: black;
+    height: 95vh;
     padding: 10px;
 }
 
-#blanc1
+#b1
 {
     background-color: rgb(187, 184, 184);
-    grid-area: blanc1;
+    grid-area: b1;
 }
 
-#blanc2
+#b2
 {
     background-color: rgb(187, 184, 184);
-    grid-area: blanc2;
+    grid-area: b2;
 }
 
-#jaune1
+#j1
 {
     background-color: rgb(213, 228, 6);
-    grid-area: jaune1;
+    grid-area: j1;
 }
 
-#bleu1
+#blee1
 {
     background-color: rgb(102, 6, 228);
-    grid-area: bleu1;
+    grid-area: blee1;
 }
 .grid-container > div {
     background-color: rgb(187, 184, 184);

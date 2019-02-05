@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: 80px;
+    transition: background-color 5s, transform 1s;
+}
+.box:hover {
+    background-color: rgb(208, 228, 35);
+    transform: rotate(180deg);
+}

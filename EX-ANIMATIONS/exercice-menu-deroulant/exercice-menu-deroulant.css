@@ -1,0 +1,19 @@
+.noir {
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    background: rgb(44, 44, 42);
+    transition: background-color 5s, transform 1s;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+.noir:hover {
+    background-color: rgb(44, 44, 42);
+    transform: scale()
+}
