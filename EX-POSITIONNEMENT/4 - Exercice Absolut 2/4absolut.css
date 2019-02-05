@@ -1,28 +1,25 @@
-
-
 div {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     padding: 45px;
 }
-
-.bleu {
-    background-color: rgba(90, 151, 192, 0.836);
+.vertfonce {
+    background-color: rgba(3, 53, 28, 0.836);
+    box-shadow: 8px 8px 12px #aaa;
 }
-
-.vert {
+.vertplusclair {
     position: absolute;
-    background-color: rgba(10, 173, 59, 0.836);
+    background-color: rgba(12, 100, 39, 0.836);
+    box-shadow: 8px 8px 12px #aaa;
     margin-top: 100px;
     margin-left: 250px;
 }
-
-.violet {
-    background-color: rgb(86, 44, 163);
+.vertencoreplusclair {
+    background-color: rgb(106, 190, 106);
 }
-
-.orange {
+.vertpale {
     position: absolute;
     margin-top: 150px;
     margin-left: 80px;
-    background-color: rgb(180, 130, 36);
+    box-shadow: 8px 8px 12px #aaa;
+    background-color: rgb(191, 231, 215);
 }

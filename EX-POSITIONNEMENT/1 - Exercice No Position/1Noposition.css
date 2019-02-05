@@ -1,18 +1,14 @@
-
-
 div {
-    border: 3px solid rgb(23, 32, 23);
+    border: 3px solid rgb(255, 255, 255);
     padding: 45px;
 }
-
-.vert {
-    background-color: rgba(80, 156, 115, 0.836);
+.rose {
+    background-color: rgba(235, 145, 149, 0.836);
+    box-shadow: 8px 8px 12px #aaa;
 }
-
-.violet {
-    background-color: rgb(86, 44, 163);
+.rouge {
+    background-color: rgb(216, 60, 60);
 }
-
-.orange {
-    background-color: rgb(180, 130, 36);
+.bordeaux {
+    background-color: rgb(104, 6, 6);
 }

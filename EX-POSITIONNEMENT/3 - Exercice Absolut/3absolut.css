@@ -1,22 +1,19 @@
 
-
 div {
-    border: 3px solid rgb(23, 32, 23);
+    border: 3px solid rgb(255, 255, 255);
     padding: 45px;
 }
-
-.vert {
-    background-color: rgba(80, 156, 115, 0.836);
+.noir {
+    background-color: rgba(10, 10, 10);
+    box-shadow: 8px 8px 12px #aaa;
 }
-
-.violet {
-    background-color: rgb(86, 44, 163);
+.anthracite {
+    background-color: rgb(82, 79, 87);
 }
-
-.orange {
+.grisclair {
     position: absolute;
     margin-top: 150px;
     margin-left: 250px;
-
-    background-color: rgb(180, 130, 36);
+    box-shadow: 8px 8px 12px #aaa;
+    background-color: rgb(143, 142, 140);
 }
