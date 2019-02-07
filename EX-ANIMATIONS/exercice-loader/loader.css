@@ -1,0 +1,57 @@
+#circle1 {
+    position: relative;
+    margin: 150px;
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-radius: 150px;
+    background: rgb(255, 255, 255,0);
+    animation-name: circle1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#circle2 {
+    position: relative;
+    bottom: 310px;
+    margin-left: 310px;
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-radius: 150px;
+    background: rgb(255, 255, 255,0);
+    animation-name: circle1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#circle3 {
+    position: relative;
+    bottom: 460px;
+    margin-left: 470px;
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-radius: 150px;
+    background: rgb(255, 255, 255, 0);
+    animation-name: circle1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+
+}
+
+h1 {
+    color: rgb(56, 18, 18);
+margin-left: 150px;
+    font-family: monospace;
+}
+
+@keyframes circle1
+{
+    0% {background-color: rgba(255,255,255,0);}
+    20% {background-color: rgba(0,0,0,0.5);}  
+    40% {background-color: rgba(0,0,0,1);}    
+}
