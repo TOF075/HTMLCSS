@@ -1,0 +1,128 @@
+.carre1 {
+    position:relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 8px;
+    background: rgb(108, 230, 163);
+    animation-name: queue;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+.carre2 {
+    position:relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 8px;
+    background: rgb(24, 158, 64);
+    animation-name: queue;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+.carre3 {
+    position:relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 8px;
+    background: rgb(49, 126, 81);
+    animation-name: queue;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+.carre4 {
+    position:relative;
+    width: 25px;
+    height: 25px;
+    left: 20px;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 8px;
+    background: rgb(156, 238, 3);
+    animation-name: queue;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+.carre5 {
+    position:relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 8px;
+    background: rgb(163, 90, 7);
+    animation-name: queue;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.carre6 {
+    position:relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 8px;
+    background: rgba(207, 12, 12);
+    animation-name: queue;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+h1 {
+    color: rgb(56, 18, 18);
+    font-family: monospace;    
+}
+h2 {
+    color: rgb(250, 245, 245);
+    text-align: center;
+    font-family: monospace;
+}
+@keyframes queue
+{
+    0%
+    {
+        background-color: rgb(4, 240, 110);
+    }
+    50%
+    {
+        background-color: rgb(73, 85, 255);  
+        transform:rotate(360deg);
+    }    
+    100%
+    {
+        background-color: rgb(231, 141, 5);  
+        transform:rotate(540deg);
+    }    
+}

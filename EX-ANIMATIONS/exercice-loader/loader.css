@@ -7,9 +7,8 @@
     border-radius: 150px;
     background: rgb(255, 255, 255,0);
     animation-name: circle1;
-    animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-duration: 3s;
 }
 #circle2 {
     position: relative;
@@ -21,10 +20,9 @@
     border-radius: 150px;
     background: rgb(255, 255, 255,0);
     animation-name: circle1;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 #circle3 {
     position: relative;
@@ -36,22 +34,17 @@
     border-radius: 150px;
     background: rgb(255, 255, 255, 0);
     animation-name: circle1;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
     animation-delay: 2s;
-
 }
-
 h1 {
     color: rgb(56, 18, 18);
 margin-left: 150px;
     font-family: monospace;
 }
-
 @keyframes circle1
 {
-    0% {background-color: rgba(255,255,255,0);}
-    20% {background-color: rgba(0,0,0,0.5);}  
-    40% {background-color: rgba(0,0,0,1);}    
+    0% {background-color: rgba(255,255,255);} 
+    100% {background-color: rgba(0,0,0,1);}}
 }
