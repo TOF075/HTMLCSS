@@ -1,8 +1,38 @@
 h1 {
-    color: rgb(122, 122, 109);
+    color: rgb(255, 255, 255);
     font-family:"arial", times, serif;
+    background:  rgb(177, 177, 74);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
   }
 
 body {
     font-family:"arial", times, serif;
    }
+
+.photo {
+  border-radius: 150px;
+}
+
+#nav {
+  padding: 0; margin: 0;
+  color: white;
+  background:  rgb(177, 177, 74);
+}
+#nav li {
+	display: inline;
+  list-style: none;
+  
+}
+#nav {
+  padding:3px; 
+  margin:2px;
+  text-decoration: none;
+}
+
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
