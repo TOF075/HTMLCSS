@@ -1,0 +1,28 @@
+h1 {
+    margin-left: 80px;
+}
+#box {
+    height: 150px;
+    width: 150px;
+    margin-left: 110px;
+    margin-top: 70px;
+    animation-name: box;
+    background-image: url("spirale.png");
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes box
+{
+    0%
+    {
+        background-color: red;
+        
+    }
+    100%
+    {
+        background-color: yellow;  
+        transform:rotate(540deg);
+    }    
+}

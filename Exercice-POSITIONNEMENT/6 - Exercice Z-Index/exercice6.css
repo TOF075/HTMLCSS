@@ -1,0 +1,59 @@
+.conteneur {
+    position: relative;
+    background-color: skyblue;
+    width: 500px;
+    height: 500px;
+}
+.vert {
+    position: absolute;
+    z-index: 2;
+    width: 180px;
+    height: 180px;
+    background-color: darkgreen;
+    border-style: inset;
+    border-width:3px;
+    box-shadow: 8px 8px 12px rgb(19, 16, 16, 0.7);
+    border-color:darkslategrey;
+    margin-left: 65px;
+    margin-top:65px;
+}
+.mauve {
+    position: absolute;
+    z-index: 3;
+    width: 180px;
+    height: 180px;
+    box-shadow: 8px 8px 12px rgb(19, 16, 16, 0.7);
+    background-color: rgba(147, 112, 219, 0.7);
+    border-style: inset;
+    border-width:3px;
+    border-color:darkslategrey;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.orange {
+    position: absolute;
+    z-index: 2;
+    width: 180px;
+    height: 180px;
+    background-color: darkorange;
+    box-shadow: 8px 8px 12px rgb(19, 16, 16, 0.7);
+    border-style: inset;
+    border-width:3px;
+    border-color:darkslategrey;
+    margin-left: 250px;
+    margin-top: 250px;
+}
+.jaune {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: yellow;
+    border-style: inset;
+    border-width:3px;
+    box-shadow: 8px 8px 12px rgb(19, 16, 16, 0.7);
+    border-color:darkslategrey;
+    margin-left: 280px;
+    margin-top: 280px;
+}
+
+

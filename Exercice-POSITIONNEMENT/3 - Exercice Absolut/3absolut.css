@@ -1,0 +1,19 @@
+
+div {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 45px;
+}
+.noir {
+    background-color: rgba(10, 10, 10);
+    box-shadow: 8px 8px 12px #aaa;
+}
+.anthracite {
+    background-color: rgb(82, 79, 87);
+}
+.grisclair {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+    box-shadow: 8px 8px 12px #aaa;
+    background-color: rgb(143, 142, 140);
+}

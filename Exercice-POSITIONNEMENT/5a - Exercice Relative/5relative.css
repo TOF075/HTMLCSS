@@ -1,0 +1,41 @@
+div {
+    border: 3px solid rgb(255, 255, 255); 
+}
+.bleu {
+    height: 600px;
+    width: 600px;
+    background-color: rgba(90, 151, 192, 0.836);
+    box-shadow: 8px 8px 12px #aaa;
+}
+.vert {
+    position: relative;
+    left: 72.66px;
+    top: 72.66px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(10, 173, 59);
+   }
+.violet {
+    position: relative;
+    bottom: 134px;
+    left: 355.82px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(86, 44, 163);
+}
+.orange {
+    position: relative;
+    left: 72.66px;
+    bottom: 72.66px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(180, 130, 36);
+    }
+.jaune {
+    position: relative;
+    left: 355.82px;
+    bottom: 280px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(171, 240, 11, 0.8);
+}

@@ -1,0 +1,25 @@
+div {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 45px;
+}
+.vertfonce {
+    background-color: rgba(3, 53, 28, 0.836);
+    box-shadow: 8px 8px 12px #aaa;
+}
+.vertplusclair {
+    position: absolute;
+    background-color: rgba(12, 100, 39, 0.836);
+    box-shadow: 8px 8px 12px #aaa;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.vertencoreplusclair {
+    background-color: rgb(106, 190, 106);
+}
+.vertpale {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 80px;
+    box-shadow: 8px 8px 12px #aaa;
+    background-color: rgb(191, 231, 215);
+}
