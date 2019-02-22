@@ -29,8 +29,7 @@
     height: 120px;
     margin-left: 43px;
     border: 3px solid rgb(255, 255, 255);
-    background-color: orangered;
-    
+    background-color: orangered;    
 }
 .jaune {
     float: right;
@@ -38,15 +37,13 @@
     height: 120px;
     margin-right: 40px;
     border: 3px solid rgb(255, 255, 255);
-    background-color: yellow;
-    
+    background-color: yellow;    
 }
 .gris {
     float: right;
     width: 120px;
     height: 120px;
     border: 3px solid rgb(255, 255, 255);
-    background-color: grey;
-    
+    background-color: grey;    
 }
 

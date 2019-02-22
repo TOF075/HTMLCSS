@@ -1,24 +1,19 @@
-
-
 div {
     border: 2px solid rgb(255, 255, 255);
     padding: 20px;
 }
-
 .bleu {
     height: 600px;
     width: 600px;
     background-color: rgba(90, 151, 192, 0.836);
     box-shadow: 8px 8px 12px #aaa;
 }
-
 .vert {
     position: absolute;
     height: 240px;
     width: 240px;
     background-color: rgba(10, 173, 59);
    }
-
 .violet {
     position: absolute;
     height: 240px;
@@ -26,7 +21,6 @@ div {
     margin-left: 310px;
     background-color: rgb(86, 44, 163);
 }
-
 .orange {
     position: absolute;
     height: 240px;
@@ -34,7 +28,6 @@ div {
     margin-top: 310px;
     background-color: rgb(180, 130, 36);
 }
-
 .jaune {
     position: absolute;
     height: 240px;

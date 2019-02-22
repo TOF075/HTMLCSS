@@ -3,51 +3,38 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-
 header {
     flex:1;
     background-color: rgb(207, 15, 15);
 }
-
 ul {display: flex;
     flex: 5;
 }
-
 li {flex:1;
     text-align: center;
     list-style: none;
-    border: 2px outset rgb(31, 28, 28);
-    
+    border: 2px outset rgb(31, 28, 28);    
 }
-
-
-
 section {
     flex:6;
     display:flex;
     background-color: rgb(28, 177, 236);
 }
-
 aside {
     flex: 1;
 
 }
-
 #aside1 {
     background-color: rgb(207, 221, 8);
 }
-
 #aside2 {
     background-color: rgb(247, 105, 223);
 }
-
 article {
     flex: 4;
     display: flex;
     background-color: rgb(81, 194, 209);
 }
-
 footer {
     background-color: rgb(11, 133, 22);
     flex: 1;

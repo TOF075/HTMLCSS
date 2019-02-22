@@ -12,7 +12,6 @@ h1 {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
 @keyframes box
 {
     0%

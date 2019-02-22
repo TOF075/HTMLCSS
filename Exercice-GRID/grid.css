@@ -10,7 +10,6 @@
     grid-area: w3;
     background: rgba(229, 233, 233, 0.911);
 }
-
 .item4 {
     grid-area: w4;
     background: rgba(229, 233, 233, 0.911);
@@ -19,27 +18,22 @@
     grid-area: j1;
     background: rgb(238, 241, 49);
 }
-
 .item6 {
     grid-area: b1;
     background: rgb(46, 49, 233);
 }
-
 .item7 {
     grid-area: w5;
     background: rgba(229, 233, 233, 0.911);
 }
-
 .item8 {
     grid-area: b2;
     background: rgb(46, 49, 233);
 }
-
 .item9 {
     grid-area: w6;
     background: rgba(229, 233, 233, 0.911);
 }
-
 .item10 {
     grid-area: w7;
     background: rgba(229, 233, 233, 0.911);
@@ -129,8 +123,6 @@
     grid-area: b4;
     background: rgb(46, 49, 233);
 }
-
-
 .grid-container {
     display: grid;
     grid-template-areas:
