@@ -1,0 +1,19 @@
+.section {
+  background: #f3f7f8;
+ 
+  border-radius: 15px;
+  box-shadow: 15px;
+  width: auto;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 25px;
+  color: rgb(196, 48, 173);
+}
+
+#today, #wednesday, #thursday, #friday, #saturday, #sunday, #monday {
+  font-family: monospace;
+  font-size: 15px;
+
+}
