@@ -114,7 +114,7 @@
     grid-area: j5;
     background: rgb(238, 241, 49);
 }
-}
+
 .item30 {
     grid-area: b3;
     background: rgb(46, 49, 233);
@@ -139,8 +139,8 @@
     'w11  r4  r4  .   j4  w12  w12  w12  w12  w12  w19  w19  w19 b4  b4  j5  w14 w14'
     'w11  r4  r4  .   j4  w12  w12  w12  w12  w12  w19  w19  w19 b4  b4  j5  w14 w14'
     'w11  r4  r4  .   j4  r5   r5   r5   .    .    .     .    .  w15 w15 w15 w15 w15'
-     'w16 w16 w16 w16 j4  r5   r5   r5  .     .    .     .    .  w15 w15 w15 w15 w15'    
-     ;
+    'w16 w16 w16 w16 j4  r5   r5   r5  .     .    .     .    .  w15 w15 w15 w15 w15'    
+    ;
     grid-gap: 10px;
     background: rgb(51, 54, 52);
     height: 95vh;
