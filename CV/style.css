@@ -1,38 +1,210 @@
+h1,
+h4 {
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	color: white;
+}
+
+aside {
+	padding-top: 25px;
+	width: 100%;
+	color: white;
+}
+
+aside a {
+	color: rgba(248, 246, 246, 0.9);
+}
+
+#icon-exp {
+	background-color: rgb(231, 56, 12);
+	border-radius: 150px;
+	width: 60px;
+	margin: auto;
+}
+
+#icon-langues {
+	background-color: rgb(231, 56, 12);
+	border-radius: 150px;
+	width: 60px;
+	margin: auto;
+}
+
+#icon-form {
+	background-color: rgba(231, 56, 12);
+	border-radius: 150px;
+	width: 60px;
+	margin: auto;
+}
+
+#icon-poussin {
+	background-color: rgba(231, 56, 12);
+	border-radius: 150px;
+	width: 60px;
+	margin: auto;
+}
+
+#icon-passion {
+	background-color: rgba(231, 56, 12);
+	border-radius: 150px;
+	width: 60px;
+	margin: auto;
+}
+
+#icon-info {
+	background-color: rgba(231, 56, 12);
+	border-radius: 150px;
+	width: 60px;
+	margin: auto;
+}
+
+.f {
+	text-align: center;
+	letter-spacing: 3px;
+	border-radius: 150px;
+	float: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 h1 {
-    color: rgb(255, 255, 255);
-    font-family:"arial", times, serif;
-    background:  rgb(177, 177, 74);
-    display: inline-block;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-  }
+	color: #f1f1f1;
+	font-size: 22px;
+	text-align: center;
+}
+
+h2 {
+	color: rgba(231, 56, 12);
+}
 
 body {
-    font-family:"arial", times, serif;
-   }
+	background: #aecbd6;
+}
 
 .photo {
-  border-radius: 150px;
+	border-radius: 150px;
+	float: left;
+	width: 65vm;
+	margin-left: 20px;
+	border-width: 2px;
+}
+
+#nav li a {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin: auto;
+}
+
+.visitcard {
+	display: flex;
+	width: 100%;
+	background: rgb(231, 56, 12);
+	border-radius: 15px;
+	box-shadow: 2px 2px 3px #888;
+	padding-top: 30px;
+}
+
+
+/* Effet Zoom sur la photo d'identité*/
+
+.zoom1 {
+	width: 320px;
+	height: 240px;
+}
+
+.identite {
+	width: 100%;
+	height: 100%;
+}
+
+.identite img {
+	transition: all 1s ease;
+}
+
+.identite:hover img {
+	transform: scale(1.25);
+}
+
+
+/* Formulaire de contact (non fonctionnel) */
+
+#form {
+	width: 500px;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	font-size: 15px;
+	background: #272727;
+	border-radius: 15px;
+	box-shadow: 2px 2px 3px #888;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+body {
+	background: #ccc;
+	font-family: helvetica, arial, serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(231, 56, 12);
+}
+
+ul {
+	list-style: none;
+	position: relative;
+}
+
+ul li {
+	float: left;
+	padding-right: 25px;
+	text-align: justify;
+}
+
+
+/* clear'n floats */
+
+ul:after {
+	clear: both;
+}
+
+ul:before,
+ul:after {
+	content: " ";
+	display: table;
 }
 
 #nav {
-  padding: 0; margin: 0;
-  color: white;
-  background:  rgb(177, 177, 74);
-}
-#nav li {
-	display: inline;
-  list-style: none;
-  
-}
-#nav {
-  padding:3px; 
-  margin:2px;
-  text-decoration: none;
+	top: 0;
+	position: sticky;
+	background: #2B2B2B;
+	text-align: center;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px #0E0E0E;
+	box-shadow: 2px 2px 3px #888;
+	display: inline-block;
 }
 
-#nav a {
-	display:inline-block;
-	margin: 0 30px;
+#langues ul li {
+	margin-left: 25;
+}
+
+@media only screen and (max-width: 600px) {
+	li {
+		float: none;
+	}
+	ul.sub li a {
+		background: #272727;
+		border: none;
+		color: #8B8B8B;
+	}
+	ul.sub li a:hover {
+		color: #ccc;
+		background: none;
+	}
 }
