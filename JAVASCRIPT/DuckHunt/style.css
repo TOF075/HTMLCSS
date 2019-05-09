@@ -1,0 +1,161 @@
+
+
+
+
+#bird{
+    position: absolute;
+    margin: 50px;
+    height: 150px;
+    width: 150px;
+    top: 0;
+}
+
+body{
+color:black;
+background-color:white;
+background-image:url(img/background2.jpg);
+cursor: url('img/crosshair.png') 32 32, crosshair;
+
+
+}
+
+
+
+
+.text {
+margin-left: 600px;
+  text-align: center;
+  display: inline-block;
+  transition: .5s;
+}
+
+.text span
+{
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    font-family: arial;
+    font-weight: bold;
+    color: #a0a0a0;
+    font-size: 15px;
+    float: left;
+    transition: .5s;
+    
+  
+}
+
+
+
+.text span:nth-child(1)
+{
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+
+
+.text:hover span:nth-child(odd)
+{
+    transform: skewY(-15deg);
+    color: #b5b5b5;
+    box-shadow: 0 60px 20px rgba(0,0,0,.1);
+}
+
+.text:hover span:nth-child(even)
+{
+    transform: skewY(15deg);
+    box-shadow: 0 60px 20px rgba(0,0,0,.1);
+    color: #b5b5b5;
+}
+
+.text:hover
+{
+    transform: rotateX(35deg);
+}
+
+#output {
+  font-size: 50px;
+  font-family: arial;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+
+
+.container {
+  margin-left: 30px;
+  margin-top: 250px;
+  color: aliceblue;
+  background-color: rgb(0, 7, 0, 0.8);
+  width: 100px;
+  height: 230px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgb(0, 7, 6, 0.4);
+
+  
+}
+
+
+.container2 {
+  margin-top: 40px;
+  padding: 20px;
+  padding-left:30px;
+  padding-right:30px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(0, 7, 0, 0.8);
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgb(0, 7, 6, 0.4);
+  margin-left: 525px;
+
+
+  
+}
+
+
+.container3 {
+  margin-top: 40px;
+  padding: 20px;
+  padding-left:30px;
+  padding-right:30px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(0, 7, 0, 0.8);
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgb(0, 7, 6, 0.4);
+  margin-left: 525px;
+
+
+  
+}
+
+.joueur1 {
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+.joueur2 {
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: justify;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer a {
+  margin-left: 850px;
+}

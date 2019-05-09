@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #e8e8e8;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(58, 58, 57);
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    border: thick double rgb(252, 187, 9);
+
+  }
+
+  p {
+    text-align: center;
+    color: rgb(58, 58, 57);
+    background-color: rgb(243, 216, 157);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    
+  }
+  
+  .inscription {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 600px;
+  }
+
+  
+  .connexion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 600px;
+  }
+
+  .bienvenue {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 600px;
+  }
+  
+  .profil {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 600px;
+  }
+  
+  .profil {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 600px;
+  }
+
+  .bouton a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
