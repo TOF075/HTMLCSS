@@ -13,13 +13,13 @@ $bdd = new PDO('mysql:host=127.0.0.1;dbname=adopte', 'root', '');
 
 if(isset($_GET['id']) AND $_GET['id'] > 0) {
    $getid = intval($_GET['id']);
-   $requser = $bdd->prepare('SELECT * FROM rh WHERE id = ?');
+   $requser = $bdd->prepare('SELECT * FROM members WHERE id = ?');
    $requser->execute(array($getid));
    $userinfo = $requser->fetch();
 ?>
 <html>
    <head>
-      <title>Profil Employeur</title>
+      <title>TUTO PHP</title>
       <meta charset="utf-8">
    </head>
    <body>
@@ -27,28 +27,20 @@ if(isset($_GET['id']) AND $_GET['id'] > 0) {
    <div class="bienvenue">
       <div align="center">
       
-         <h2><p>Profil de <?php echo $userinfo['last_name']; ?></p></h2>
-         <br><br>
-         <?php
-         if(!empty($userinfo['last_name']))
-         {
-         ?>
-         <img src="rh/picture_rh/<?php echo $userinfo['picture_rh']; ?>" width="150" />
-         <?php
-         }
-         ?>
+         <h2><p>Profil de <?php echo $userinfo['pseudo']; ?></p></h2>
+
 
          <br /><br />
-         Last_name = <?php echo $userinfo['last_name']; ?>
+         Pseudo = <?php echo $userinfo['pseudo']; ?>
          
          <br />
-         Mail = <?php echo $userinfo['mail']; ?>
+         Mail = <?php echo $userinfo['email']; ?>
          <br />
          <?php
          if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
          ?>
          <br />
-         <a href="editionprofil2.php">Editer mon profil</a>
+         <a href="editionprofil.php">Editer mon profil</a>
          <a href="disconnect.php">Se déconnecter</a>
          <?php
          }

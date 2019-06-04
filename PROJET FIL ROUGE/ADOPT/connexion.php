@@ -1,4 +1,8 @@
-<?php
+<html>
+   
+<link rel="stylesheet" href="style.css">
+
+   <?php
 session_start();
 
 $bdd = new PDO('mysql:host=localhost;dbname=adopte','root','');
@@ -26,20 +30,21 @@ if(isset($_POST['formconnexion'])) {
 ?>
 <html>
    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Page de connexion des candidats</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Page de connexion des candidats</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+   </head>
       
 
    <body>
    <div class="container">
    <h1>Adopte un stage</h1>
+   <br><br><br><br>
             <div class="connexion" id="connexion">
-                <p>Page de connexion des candidats</p>
-                <br><br>
+               <p>Page de connexion des candidats</p>
+               <br><br>
          <form method="POST" action="">
             <input type="email" name="mailconnect" placeholder="Mail" />
             <input type="password" name="mdpconnect" placeholder="Mot de passe" />

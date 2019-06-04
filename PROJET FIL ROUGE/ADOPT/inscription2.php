@@ -4,33 +4,33 @@ $bdd = new PDO('mysql:host=localhost;dbname=adopte','root','');
 
 if(isset($_POST['forminscription']))
 {
-  $business_name = htmlspecialchars($_POST['societe']);
-  $last_name = htmlspecialchars($_POST['last_name']);
-  $first_name = htmlspecialchars($_POST['first_name']);
-   $mail = htmlspecialchars($_POST['mail']);
-   $mail2 = htmlspecialchars($_POST['mail2']);
-   $mdp = sha1($_POST['mdp']);
-   $mdp2 = sha1($_POST['mdp2']);
-  if(!empty($_POST['societe']) AND !empty($_POST['first_name']) AND !empty($_POST['last_name']) AND !empty($_POST['mail']) AND !empty($_POST['mail2']) AND !empty($_POST['mdp']) AND !empty($_POST['mdp2'])) {
+$business_name = htmlspecialchars($_POST['societe']);
+$last_name = htmlspecialchars($_POST['last_name']);
+$first_name = htmlspecialchars($_POST['first_name']);
+$mail = htmlspecialchars($_POST['mail']);
+$mail2 = htmlspecialchars($_POST['mail2']);
+$mdp = sha1($_POST['mdp']);
+$mdp2 = sha1($_POST['mdp2']);
+if(!empty($_POST['societe']) AND !empty($_POST['first_name']) AND !empty($_POST['last_name']) AND !empty($_POST['mail']) AND !empty($_POST['mail2']) AND !empty($_POST['mdp']) AND !empty($_POST['mdp2'])) {
     $pseudolength = strlen($business_name);
     if($pseudolength <= 255) {
-       if($mail == $mail2) {
-          if(filter_var($mail, FILTER_VALIDATE_EMAIL)) {
-             $reqmail = $bdd->prepare("SELECT * FROM business WHERE mail = ?");
-             $reqmail->execute(array($mail));
-             $mailexist = $reqmail->rowCount();
-             if($mailexist == 0) {
+    if($mail == $mail2) {
+    if(filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+            $reqmail = $bdd->prepare("SELECT * FROM rh WHERE mail = ?");
+            $reqmail->execute(array($mail));
+            $mailexist = $reqmail->rowCount();
+            if($mailexist == 0) {
                 if($mdp == $mdp2) {
-                   $insertmbr = $bdd->prepare("INSERT INTO business(business_name, last_name, first_name, mail, pass) VALUES(?, ?, ?, ?, ?)");
-                   $insertmbr->execute(array($business_name, $last_name, $first_name, $mail, $mdp));
-                   $erreur = "Votre compte a bien été créé ! <a href=\"connexion2.php\">Me connecter</a>";
+                $insertmbr = $bdd->prepare("INSERT INTO rh(business_name, last_name, first_name, mail, pass) VALUES(?, ?, ?, ?, ?)");
+                $insertmbr->execute(array($business_name, $last_name, $first_name, $mail, $mdp));
+                $erreur = "Votre compte a bien été créé ! <a href=\"connexion2.php\">Me connecter</a>";
                 }
 
                 else {
-                  $erreur = "Vos mots de passe ne correspondent pas !";
-               }
+                $erreur = "Vos mots de passe ne correspondent pas !";
+            }
             } else {
-               $erreur = "Adresse mail déjà utilisée !";
+            $erreur = "Adresse mail déjà utilisée !";
             }
          } else {
             $erreur = "Votre adresse mail n'est pas valide !";
@@ -59,9 +59,9 @@ if(isset($_POST['forminscription']))
         <div class="container">
             <h1>Adopte un stage</h1>
             <div class="inscription" id="inscription">
-                <p>Page d'inscription Business</p>
+                <p>Page d'inscription des Employeurs</p>
                 <br><br>
-               
+            
                 <form method="POST" action="">
                     <table>
                     <tr>

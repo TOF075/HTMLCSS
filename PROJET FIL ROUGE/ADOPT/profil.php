@@ -1,52 +1,64 @@
-<?php
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="style.css">
+   
+   <?php
 session_start();
 
-$bdd = new PDO('mysql:host=localhost;dbname=adopte','root','');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=adopte', 'root', '');
 
-if(isset($_POST['formconnexion'])) {
-   $mailconnect = htmlspecialchars($_POST['mailconnect']);
-   $mdpconnect = sha1($_POST['mdpconnect']);
-   if(!empty($mailconnect) AND !empty($mdpconnect)) {
-      $requser = $bdd->prepare("SELECT * FROM members WHERE email = ? AND pass = ?");
-      $requser->execute(array($mailconnect, $mdpconnect));
-      $userexist = $requser->rowCount();
-      if($userexist == 1) {
-         $userinfo = $requser->fetch();
-         $_SESSION['id'] = $userinfo['id'];
-         $_SESSION['pseudo'] = $userinfo['pseudo'];
-         $_SESSION['email'] = $userinfo['email'];
-         header("Location: profil.php?id=".$_SESSION['id']);
-      } else {
-         $erreur = "Mauvais mail ou mot de passe !";
-      }
-   } else {
-      $erreur = "Tous les champs doivent être complétés !";
-   }
-}
+if(isset($_GET['id']) AND $_GET['id'] > 0) {
+   $getid = intval($_GET['id']);
+   $requser = $bdd->prepare('SELECT * FROM members WHERE id = ?');
+   $requser->execute(array($getid));
+   $userinfo = $requser->fetch();
 ?>
 <html>
    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Page de connexion des candidats</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
-      
-
+      <title>Profil Etudiant</title>
+      <meta charset="utf-8">
+   </head>
    <body>
    <div class="container">
-   <h1>Adopte un stage</h1>
-            <div class="connexion" id="connexion">
-                <p>Mon profil</p>
+   <div class="bienvenue">
+      <div align="center">
+      
+         <h2><p>Profil de <?php echo $userinfo['pseudo']; ?></p></h2>
+         <br><br>
+         <?php
+         if(!empty($userinfo['avatar']))
+         {
+         ?>
+         <img src="members/avatar/<?php echo $userinfo['avatar']; ?>" width="150" />
+         <?php
+         }
+         ?>
 
-                <br><br>
-       
-
-       
-
-
-         </div>
+         <br /><br />
+         Pseudo = <?php echo $userinfo['pseudo']; ?>
+         
+         <br />
+         Mail = <?php echo $userinfo['email']; ?>
+         <br />
+         <?php
+         if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
+         ?>
+         <br />
+         <a href="editionprofil.php">Editer mon profil</a>
+         <a href="disconnect.php">Se déconnecter</a>
+         <?php
+         }
+         ?>
+      </div>
+   </div>
       </div>
    </body>
+</html>
+<?php   
+}
+?>
 </html>

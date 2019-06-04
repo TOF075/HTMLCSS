@@ -7,7 +7,7 @@ if(isset($_POST['formconnexion'])) {
    $mailconnect = htmlspecialchars($_POST['mailconnect']);
    $mdpconnect = sha1($_POST['mdpconnect']);
    if(!empty($mailconnect) AND !empty($mdpconnect)) {
-      $requser = $bdd->prepare("SELECT * FROM business WHERE mail = ? AND pass = ?");
+      $requser = $bdd->prepare("SELECT * FROM rh WHERE mail = ? AND pass = ?");
       $requser->execute(array($mailconnect, $mdpconnect));
       $userexist = $requser->rowCount();
       if($userexist == 1) {
@@ -26,23 +26,23 @@ if(isset($_POST['formconnexion'])) {
 ?>
 <html>
    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Page de connexion Business</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Page de connexion des Employeurs</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+   </head>
       
 
    <body>
    <div class="container">
    <h1>Adopte un stage</h1>
             <div class="connexion" id="connexion">
-                <p>Page de connexion Business</p>
-                <br><br>
+               <p>Page de connexion des Employeurs</p>
+               <br><br>
          <form method="POST" action="">
             <input type="email" name="mailconnect" placeholder="Mail" />
-            <input type="password" name="mdpconnect" placeholder="Mot de passe" />
+            <input type="password" name="mdpconnect" placeholder="Pass" />
             <br /><br />
             <input type="submit" name="formconnexion" value="Se connecter !" />
          </form>
